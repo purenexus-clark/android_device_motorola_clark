@@ -169,8 +169,6 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.primary.msm8992 \
-    audio_policy.msm8992 \
     audio.a2dp.default \
     audio.usb.default \
     audio.r_submix.default
