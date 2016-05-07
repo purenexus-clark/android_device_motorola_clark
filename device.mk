@@ -33,9 +33,7 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
 PRODUCT_PACKAGES += \
-    audio_policy.msm8992 \
     audio.a2dp.default \
-    audio.primary.msm8992 \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
