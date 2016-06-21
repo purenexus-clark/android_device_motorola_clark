@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     ueventd.qcom.rc
 
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
+    ro.product.model \
+    ro.product.name
+
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
