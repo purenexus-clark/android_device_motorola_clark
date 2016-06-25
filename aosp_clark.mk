@@ -1,3 +1,6 @@
+# Get the long list of APNs
+PRODUCT_COPY_FILES := device/motorola/clark/apns-full-conf.xml:system/etc/apns-conf.xml
+
 # Inherit 64-bit configs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
